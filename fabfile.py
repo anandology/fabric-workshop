@@ -15,3 +15,7 @@ def helloworld():
 @task
 def root():
     sudo("whoami")
+
+@task
+def sleep():
+    run("sleep 5")
