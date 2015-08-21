@@ -10,6 +10,7 @@ Vagrant.configure(2) do |config|
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
 
+  config.ssh.password = "vagrant"
 
   config.vm.define "py0" do |node|
     node.vm.box = "ubuntu/trusty64"
