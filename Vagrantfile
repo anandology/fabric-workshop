@@ -86,5 +86,6 @@ Vagrant.configure(2) do |config|
   # SHELL
   config.vm.provision "ansible" do |ansible| 
     ansible.playbook = "playbook.yml"
+    ansible.ask_sudo_pass = true
   end
 end
