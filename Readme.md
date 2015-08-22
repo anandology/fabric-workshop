@@ -11,9 +11,9 @@ Requirements
 [1]: https://www.virtualbox.org/
 [2]: http://vagrantup.com/
 
-Python package `fabric` need to be installed as well. It can be done using:
+Python packages `fabric` and `ansible` need to be installed as well. It can be done using:
 
-    pip install fabric
+    pip install fabric ansible
 
 
 
